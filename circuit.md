@@ -6,19 +6,19 @@
 - 12V Power supply
 - Wiring cables
 
-1.  Place the **Adafruit Motor Shield v2** on top of the Arduino Uno.
+### 1.  Place the **Adafruit Motor Shield v2** on top of the Arduino Uno.
 
-2. Arduino Uno with Motor Shield Mounted on Top:
+### 2. Arduino Uno with Motor Shield Mounted on Top:
    - DC Motor 1 -> M1 terminals
    - DC Motor 2 -> M2 terminals
    - External power supply -> Vin and GND of the motor shield
 
-3. Left IR Sensor:
+### 3. Left IR Sensor:
    - Vcc (Anode Pin) -> 5V on Arduino
    - GND (Cathode Pin and Emitter Pin) -> GND on Arduino
    - Signal (Collector Pin) -> A0 on Arduino
 
-4. Right IR Sensor:
+### 4. Right IR Sensor:
    - Vcc (Anode Pin) -> 5V on Arduino
    - GND (Cathode Pin and Emitter Pin) -> GND on Arduino
    - Signal (Collector Pin) -> A1 on Arduino

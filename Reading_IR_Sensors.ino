@@ -1,7 +1,7 @@
 #include <Wire.h>
 #include <Adafruit_MotorShield.h>
-#define IR_LEFT A0  // Left IR sensor connected to analog pin A0
-#define IR_RIGHT A1 // Right IR sensor connected to analog pin A1
+#define IR_LEFT A0  // Left IR sensor connected to pin A0
+#define IR_RIGHT A1 // Right IR sensor connected to pin A1
 
 Adafruit_MotorShield AFMS = Adafruit_MotorShield(); 
 Adafruit_DCMotor *leftMotor = AFMS.getMotor(1);
@@ -25,11 +25,11 @@ void loop() {
   leftSensorValue = analogRead(IR_LEFT);
   rightSensorValue = analogRead(IR_RIGHT);
 
-  // Print values for debugging
+  // Print values for debugging and calibration
   Serial.print("Left Sensor: ");
   Serial.print(leftSensorValue);
   Serial.print(" | Right Sensor: ");
   Serial.println(rightSensorValue);
 
-  delay(100);  // Small delay to avoid spamming serial output
+  delay(100);
 }

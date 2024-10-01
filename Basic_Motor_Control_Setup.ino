@@ -4,7 +4,7 @@
 // Create the motor shield object
 Adafruit_MotorShield AFMS = Adafruit_MotorShield(); 
 
-// Select the motors connected to the shield (M1 and M2 in this example)
+// Select the motors connected to the shield (M1 and M2)
 Adafruit_DCMotor *leftMotor = AFMS.getMotor(1);
 Adafruit_DCMotor *rightMotor = AFMS.getMotor(2);
 
@@ -15,7 +15,7 @@ void setup() {
   // Initialize the motor shield
   AFMS.begin();  
 
-  // Set the initial speed for motors (speed between 0-255)
+  // Set the initial speed for motors (0-255)
   leftMotor->setSpeed(150);
   rightMotor->setSpeed(150);
 
@@ -26,5 +26,4 @@ void setup() {
 
 void loop() {
   // Basic loop to keep motors running
-  // You will modify this with control logic based on IR sensor inputs
 }

@@ -9,7 +9,7 @@ Adafruit_DCMotor *leftMotor = AFMS.getMotor(1);
 Adafruit_DCMotor *rightMotor = AFMS.getMotor(2);
 
 void setup() {
-  Serial.begin(9600);  // Start serial communication
+  Serial.begin(9600);
   Serial.println("Robot Starting");
 
   // Initialize the motor shield

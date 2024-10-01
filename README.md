@@ -1,4 +1,4 @@
-### Arduino-Based Line Following Robot with Closed-Loop Motor Control
+# Arduino-Based Line Following Robot with Closed-Loop Motor Control
 
 1. Setting Up the Environment
 Make sure you have the Adafruit Motor Shield library installed for controlling the motors. If you haven’t done so yet, you can install it via the Arduino IDE:
